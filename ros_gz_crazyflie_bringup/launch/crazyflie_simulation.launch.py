@@ -70,11 +70,25 @@ def generate_launch_description():
     control = Node(
         package='ros_gz_crazyflie_control',
         executable='control_services',
+        name='control_services',
         output='screen',
         parameters=[
             {'hover_height': 0.5},
             {'robot_prefix': '/crazyflie'},
-            {'incoming_twist_topic': '/cmd_vel'},
+            {'incoming_twist_topic': '/crazyflie/cmd_vel_input'},
+            {'max_ang_z_rate': 0.4},
+        ]
+    )
+
+    control2 = Node(
+        package='ros_gz_crazyflie_control',
+        executable='control_services',
+        name='control_services_2',
+        output='screen',
+        parameters=[
+            {'hover_height': 0.5},
+            {'robot_prefix': '/crazyflie2'},
+            {'incoming_twist_topic': '/crazyflie2/cmd_vel_input'},
             {'max_ang_z_rate': 0.4},
         ]
     )
@@ -83,4 +97,6 @@ def generate_launch_description():
         gz_ln_arg,
         gz_sim,
         bridge,
-        control        ])
+        control,
+        control2,
+        ])
