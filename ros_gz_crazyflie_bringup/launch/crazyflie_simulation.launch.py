@@ -86,7 +86,7 @@ def generate_launch_description():
         name='control_services_2',
         output='screen',
         parameters=[
-            {'hover_height': 0.5},
+            {'hover_height': 0.75},
             {'robot_prefix': '/crazyflie2'},
             {'incoming_twist_topic': '/crazyflie2/cmd_vel_input'},
             {'max_ang_z_rate': 0.4},
