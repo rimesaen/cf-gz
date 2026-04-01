@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 
 <sdf version="1.8">
-  <world name="demo">
+  <world name="single_4x4">
     <plugin
       filename="gz-sim-physics-system"
       name="gz::sim::systems::Physics">
