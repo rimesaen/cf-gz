@@ -44,3 +44,13 @@
   ros_type_name: "sensor_msgs/msg/LaserScan"
   gz_type_name: "ignition.msgs.LaserScan"
   direction: GZ_TO_ROS
+- ros_topic_name: "/crazyflie/camera"
+  gz_topic_name: "/camera"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+- ros_topic_name: "/crazyflie2/camera"
+  gz_topic_name: "/camera2"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
