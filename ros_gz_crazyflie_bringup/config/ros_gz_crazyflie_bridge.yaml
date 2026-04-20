@@ -4,7 +4,7 @@
   ros_type_name: "rosgraph_msgs/msg/Clock"
   gz_type_name: "gz.msgs.Clock"
   direction: GZ_TO_ROS
-  ros_topic_name: "/crazyflie/cmd_vel"
+- ros_topic_name: "/crazyflie/cmd_vel"
   gz_topic_name: "/crazyflie/gazebo/command/twist"
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "ignition.msgs.Twist"
@@ -44,7 +44,7 @@
   ros_type_name: "sensor_msgs/msg/LaserScan"
   gz_type_name: "ignition.msgs.LaserScan"
   direction: GZ_TO_ROS
-  ros_topic_name: "/crazyflie3/cmd_vel"
+- ros_topic_name: "/crazyflie3/cmd_vel"
   gz_topic_name: "/crazyflie3/gazebo/command/twist"
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "ignition.msgs.Twist"
@@ -64,7 +64,7 @@
   ros_type_name: "sensor_msgs/msg/LaserScan"
   gz_type_name: "ignition.msgs.LaserScan"
   direction: GZ_TO_ROS
-  ros_topic_name: "/crazyflie4/cmd_vel"
+- ros_topic_name: "/crazyflie4/cmd_vel"
   gz_topic_name: "/crazyflie4/gazebo/command/twist"
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "ignition.msgs.Twist"
@@ -94,12 +94,12 @@
   ros_type_name: "sensor_msgs/msg/Image"
   gz_type_name: "gz.msgs.Image"
   direction: GZ_TO_ROS
-  ros_topic_name: "/crazyflie3/camera"
+- ros_topic_name: "/crazyflie3/camera"
   gz_topic_name: "/camera3"
   ros_type_name: "sensor_msgs/msg/Image"
   gz_type_name: "gz.msgs.Image"
   direction: GZ_TO_ROS
-  ros_topic_name: "/crazyflie4/camera"
+- ros_topic_name: "/crazyflie4/camera"
   gz_topic_name: "/camera4"
   ros_type_name: "sensor_msgs/msg/Image"
   gz_type_name: "gz.msgs.Image"

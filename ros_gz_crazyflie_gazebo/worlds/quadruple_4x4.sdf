@@ -63,22 +63,22 @@
     <include>
       <uri>model://crazyflie</uri>
       <name>crazyflie</name>
-      <pose>0.25 0.0 0 0 0 -1.57</pose>
+      <pose>0.75 0.0 0 0 0 -1.57</pose>
     </include>
     <include>
       <uri>model://crazyflie2</uri>
       <name>crazyflie2</name>
-      <pose>-0.75 0.0 0 0 0 -1.57</pose>
+      <pose>0.25 0.0 0 0 0 -1.57</pose>
     </include>
     <include>
       <uri>model://crazyflie3</uri>
       <name>crazyflie3</name>
-      <pose>0.75 0.0 0 0 0 -1.57</pose>
+      <pose>-0.25 0.0 0 0 0 -1.57</pose>
     </include>
     <include>
       <uri>model://crazyflie4</uri>
       <name>crazyflie4</name>
-      <pose>-0.25 0.0 0 0 0 -1.57</pose>
+      <pose>-0.75 0.0 0 0 0 -1.57</pose>
     </include>
 
     <model name="wall1">
@@ -88,7 +88,7 @@
         <visual name="visual">
           <geometry>
             <box>
-              <size>0.2 4 2</size>
+              <size>0.2 4 4</size>
             </box>
           </geometry>
           <material>
@@ -111,7 +111,7 @@
         <visual name="visual">
           <geometry>
             <box>
-              <size>0.2 4 2</size>
+              <size>0.2 4 4</size>
             </box>
           </geometry>
           <material>
@@ -134,7 +134,7 @@
         <visual name="visual">
           <geometry>
             <box>
-              <size>0.2 4 2</size>
+              <size>0.2 4 4</size>
             </box>
           </geometry>
           <material>
@@ -157,7 +157,7 @@
         <visual name="visual">
           <geometry>
             <box>
-              <size>0.2 4 2</size>
+              <size>0.2 4 4</size>
             </box>
           </geometry>
           <material>
